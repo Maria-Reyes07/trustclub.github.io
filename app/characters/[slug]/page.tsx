@@ -5,14 +5,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { characters } from '@/data/characters';
 import { notFound } from 'next/navigation';
+import { Metadata } from "next";
+import { PageProps as CharactersPageProps } from ".next/types/app/characters/[slug]/page";
 
-type PageProps = {
-  params: {
-    slug: string;
-  };
-};
 
-export default function CharacterPage({ params }: PageProps) {
+export default function CharacterPage({ params }: CharactersPageProps) {
   const { slug } = params;
   const character = characters.find((char) => char.slug === slug);
 

@@ -6,6 +6,8 @@ import Link from "next/link";
 import { devlogs, Devlog } from "./devlogs"; 
 import "./DevlogPage.css"; // if you have custom css
 
+
+
 export default function DevlogPage() {
   const allTags = ["All", "Art", "Story", "Gameplay", "Prototype"];
   const [activeTag, setActiveTag] = useState("All");

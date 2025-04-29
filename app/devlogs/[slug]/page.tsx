@@ -1,7 +1,9 @@
 // app/devlogs/[slugs/page.tsx]
 
 import '../DevlogDetailPage.css';
+import { Metadata } from "next";
 import { notFound } from 'next/navigation';
+import { PageProps as DevlogsPageProps } from ".next/types/app/devlogs/[slug]/page";
 
 const devlogs = [
   {
@@ -47,13 +49,8 @@ interface Devlog {
   content: string;
 }
 
-type PageProps = {
-  params: {
-    slug: string;
-  };
-};
 
-export default function DevlogPost({ params }: PageProps) {
+export default function DevlogPost({ params }: DevlogsPageProps) {
   const devlog = devlogs.find((d) => d.slug === params.slug);
 
   if (!devlog) {
