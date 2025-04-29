@@ -6,8 +6,13 @@ import Link from 'next/link';
 import { characters } from '@/data/characters';
 import { notFound } from 'next/navigation';
 import { Metadata } from "next";
-import { PageProps as CharactersPageProps } from ".next/types/app/characters/[slug]/page";
 
+// ✅ Correct type
+type CharactersPageProps = {
+  params: {
+    slug: string;
+  };
+};
 
 export default function CharacterPage({ params }: CharactersPageProps) {
   const { slug } = params;
