@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { FaDiscord, FaInstagram, FaTiktok } from "react-icons/fa"; // real icons from react-icons
-import "./footer.css";
+import "./Footer.css";
 
 export default function Footer() {
   return (
