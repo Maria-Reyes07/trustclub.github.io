@@ -1,8 +1,8 @@
-import { notFound } from "next/navigation";
-import "../DevlogDetailPage.css";
+// app/devlogs/[slugs/page.tsx]
 
+import '../DevlogDetailPage.css';
+import { notFound } from 'next/navigation';
 
-// Example devlogs data (later replace this with real database fetch)
 const devlogs = [
   {
     slug: "art-direction-update",
@@ -47,17 +47,18 @@ interface Devlog {
   content: string;
 }
 
-
 type PageProps = {
   params: {
     slug: string;
   };
 };
+
 export default function DevlogPost({ params }: PageProps) {
   const devlog = devlogs.find((d) => d.slug === params.slug);
 
   if (!devlog) {
     notFound(); // Show a 404 if the slug doesn't exist
+    return null;
   }
 
   return (
@@ -69,7 +70,6 @@ export default function DevlogPost({ params }: PageProps) {
       </div>
 
       <div className="prose prose-invert prose-lg">
-        {/* Render markdown content */}
         {devlog.content.split('\n').map((line, idx) => (
           <p key={idx}>{line}</p>
         ))}

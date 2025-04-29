@@ -4,6 +4,7 @@ import './CharacterPage.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import { characters } from '@/data/characters';
+import { notFound } from 'next/navigation';
 
 type PageProps = {
   params: {
@@ -11,7 +12,7 @@ type PageProps = {
   };
 };
 
-export default function CharacterPage({ params }: PageProps)  {
+export default function CharacterPage({ params }: PageProps) {
   const { slug } = params;
   const character = characters.find((char) => char.slug === slug);
 
@@ -31,12 +32,10 @@ export default function CharacterPage({ params }: PageProps)  {
       <div
         className="character-banner"
         style={{ backgroundColor: character.favoriteColor }}
-      >
-        {/* Optional pattern */}
-      </div>
+      ></div>
 
       <main className="character-main">
-        {/* Header with name + profile picture */}
+        {/* Character header */}
         <section className="character-header">
           <div className="character-header-text">
             <h1 className="character-name">{character.name}</h1>
@@ -108,9 +107,7 @@ export default function CharacterPage({ params }: PageProps)  {
         {/* Confessional */}
         <section>
           <h2 className="text-3xl font-semibold text-center mb-4">Confessional</h2>
-
           <div className="confessional-container">
-            {/* Left side: Image */}
             <div className="confessional-image-wrapper">
               <Image 
                 src={character.confessionalImage || '/placeholder.png'} 
@@ -121,7 +118,6 @@ export default function CharacterPage({ params }: PageProps)  {
               />
             </div>
 
-            {/* Right side: Text */}
             <div className="confessional-text">
               <p>{character.confessional}</p>
             </div>
