@@ -3,7 +3,13 @@
 import '../DevlogDetailPage.css';
 import { Metadata } from "next";
 import { notFound } from 'next/navigation';
-import { PageProps as DevlogsPageProps } from ".next/types/app/devlogs/[slug]/page";
+
+// ✅ Correct manual type
+type DevlogsPageProps = {
+  params: {
+    slug: string;
+  };
+};
 
 const devlogs = [
   {

@@ -33,8 +33,9 @@
   "include": [
     "**/*.ts",
     "**/*.tsx",
+    "trustclub.github.io/.next/types/**/*.ts",
     "trustclub.github.io/next-env.d.ts",
-    "trustclub.github.io/.next/types/**/*.ts"
+    ".next/types/**/*.ts"
   ],
   "exclude": [
     "node_modules",

@@ -1,4 +1,4 @@
-// File: /Users/mariareyes/Documents/my-game-site/app/devlogs/[slug]/page.tsx
+// File: /Users/mariareyes/Documents/my-game-site/trustclub.github.io/app/devlogs/[slug]/page.tsx
 import * as entry from '../../../../../app/devlogs/[slug]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

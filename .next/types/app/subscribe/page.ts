@@ -1,4 +1,4 @@
-// File: /Users/mariareyes/Documents/my-game-site/app/subscribe/page.tsx
+// File: /Users/mariareyes/Documents/my-game-site/trustclub.github.io/app/subscribe/page.tsx
 import * as entry from '../../../../app/subscribe/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
