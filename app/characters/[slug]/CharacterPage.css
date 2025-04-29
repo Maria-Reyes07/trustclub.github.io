@@ -1,0 +1,204 @@
+/* app/characters/CharacterPage.css */
+
+.character-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #0a0a0a;
+  color: #f1f1f1;
+}
+
+.character-banner {
+  width: 100%;
+  height: 10rem; /* 40 Tailwind units = 10rem */
+  position: relative;
+  box-shadow: inset 0 0 10px #000;
+}
+
+.character-main {
+  flex: 1;
+  padding: 2rem;
+  max-width: 72rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.character-name {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0 0 10px #fff;
+}
+
+.character-verse-card {
+  background-color: #111;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  max-width: 32rem;
+  margin: 0 auto;
+}
+
+.character-info-section {
+  background-color: #111;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .character-info-section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.character-weapon-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .character-weapon-section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.weapon-card {
+  background-color: #111;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.weapon-image {
+  position: relative;
+  width: 100%;
+  height: 14rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.character-confessional {
+  background-color: #111;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  max-width: 48rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.back-link {
+  padding-top: 2.5rem;
+  text-align: center;
+}
+
+.back-link a {
+  color: #60a5fa; /* Tailwind blue-400 */
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.back-link a:hover {
+  color: #93c5fd; /* Tailwind blue-300 */
+}
+
+.character-profile-pic {
+  width: 10rem; /* 160px */
+  height: 10rem;
+  border-radius: 9999px; /* fully round */
+  object-fit: cover;
+  border: 4px solid #f1f1f1; /* light border */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+}
+
+.character-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.character-header-text {
+  flex: 1;
+}
+
+.character-profile-pic-container {
+  position: relative;
+  width: 300px;   /* ⬅️  You can adjust width here */
+  height: 300px;  /* ⬅️  And height here */
+  overflow: hidden;
+  border-radius: 50%; /* makes it a circle */
+  margin: 0 auto; /* center if needed */
+}
+
+.character-profile-pic {
+  border-radius: 9999px; /* fully round */
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.confessional-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.confessional-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: #d1d5db; /* text-gray-300 */
+}
+
+@media (min-width: 768px) { /* md: breakpoint */
+  .confessional-container {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.confessional-image-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confessional-image {
+  width: 16rem; /* w-64 */
+  height: auto;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.confessional-text {
+  flex: 1;
+  font-size: 1.125rem; /* text-lg */
+  background-color: #2d2d2d; /* gray-800 */
+  padding: 1.5rem; /* p-6 */
+  border-radius: 0.5rem;
+}
+
+.character-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .character-header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
