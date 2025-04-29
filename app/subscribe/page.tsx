@@ -13,23 +13,19 @@ export default function SubscribePage() {
     e.preventDefault();
   
     try {
-      const response = await fetch('https://api.brevo.com/v3/contacts', {
+      const response = await fetch('/api/subscribe', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'api-key': 'THE_TRUST_CLUB_KEY', // ⬅️ Replace with your Brevo API key
         },
-        body: JSON.stringify({
-          email: email,
-          listIds: [2], // ⬅️ Replace with your Brevo List ID
-        }),
+        body: JSON.stringify({ email }),
       });
   
       if (response.ok) {
         setSubscribed(true);
       } else {
         const errorData = await response.json();
-        console.error('Brevo API error:', errorData);
+        console.error('API error:', errorData);
         alert('Failed to subscribe. Please try again.');
       }
     } catch (error) {
@@ -37,6 +33,7 @@ export default function SubscribePage() {
       alert('Something went wrong. Please try again.');
     }
   };
+  
   
 
   return (
