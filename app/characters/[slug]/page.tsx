@@ -3,7 +3,7 @@
 import './CharacterPage.css';
 import Image from 'next/image';
 import Link from 'next/link';
-import { characters } from '@/trustclub.github.io/data/characters';
+import { characters } from '@/data/characters';
 
 type PageProps = {
   params: {

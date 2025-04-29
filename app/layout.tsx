@@ -1,7 +1,7 @@
 "use client";
 
 import "./globals.css";
-import Footer from "@/trustclub.github.io/components/footer/Footer";
+import Footer from "@/components/footer/Footer";
 import Image from "next/image";
 import { useState } from "react";
 
