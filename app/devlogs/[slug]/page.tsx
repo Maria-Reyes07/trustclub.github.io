@@ -1,15 +1,9 @@
-// app/devlogs/[slugs/page.tsx]
+// app/devlogs/[slug]/page.tsx
 
 import '../DevlogDetailPage.css';
 import { Metadata } from "next";
 import { notFound } from 'next/navigation';
 
-// ✅ Correct manual type
-type DevlogsPageProps = {
-  params: {
-    slug: string;
-  };
-};
 
 const devlogs = [
   {
@@ -56,8 +50,9 @@ interface Devlog {
 }
 
 
-export default function DevlogPost({ params }: DevlogsPageProps) {
-  const devlog = devlogs.find((d) => d.slug === params.slug);
+export default async function DevlogPost({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params; // 👈 await params!
+  const devlog = devlogs.find((d) => d.slug === slug);
 
   if (!devlog) {
     notFound(); // Show a 404 if the slug doesn't exist

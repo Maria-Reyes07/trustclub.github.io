@@ -1,0 +1,9 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/devlogs/[slug]/page": "/devlogs/[slug]",
+  "/devlogs/page": "/devlogs",
+  "/characters/[slug]/page": "/characters/[slug]",
+  "/about/page": "/about",
+  "/page": "/",
+  "/subscribe/page": "/subscribe"
+}

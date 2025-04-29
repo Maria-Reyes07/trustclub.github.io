@@ -7,15 +7,9 @@ import { characters } from '@/data/characters';
 import { notFound } from 'next/navigation';
 import { Metadata } from "next";
 
-// ✅ Correct type
-type CharactersPageProps = {
-  params: {
-    slug: string;
-  };
-};
 
-export default function CharacterPage({ params }: CharactersPageProps) {
-  const { slug } = params;
+export default async function CharacterPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params; // await params!
   const character = characters.find((char) => char.slug === slug);
 
   if (!character) {
