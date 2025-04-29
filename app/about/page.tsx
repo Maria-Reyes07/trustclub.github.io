@@ -12,16 +12,16 @@ const teamMembers = [
     bio: "Leading the vision, storytelling, and art direction of T.R.U.S.T.",
   },
   {
-    name: "John Doe",
-    role: "Game Developer",
-    image: "/team/john.jpg",
-    bio: "Building the gameplay systems and ensuring a smooth experience.",
+    name: "DeeJay",
+    role: "Social Media Manager",
+    image: "/team/DeeJay.jpeg",
+    bio: "DeeJay brings T.R.U.S.T. to life online, managing our social media with heart and creativity. From sharing game updates and character spotlights to engaging with our community, DeeJay helps spread the message and mission of T.R.U.S.T. across every platform.",
   },
   {
-    name: "Jane Smith",
-    role: "Composer",
-    image: "/team/jane.jpg",
-    bio: "Crafting the beautiful music that brings emotion to the story.",
+    name: "Huncho Artist",
+    role: "Game Artist",
+    image: "/team/Huncho.jpg",
+    bio: "Huncho brings the world of T.R.U.S.T. to life with bold visuals and unique character designs. From concept art to in-game assets, his creative touch gives the game its vibrant, adventurous style.",
   },
   // Add more members if you have!
 ];

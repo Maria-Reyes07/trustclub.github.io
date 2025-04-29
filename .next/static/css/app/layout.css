@@ -1,0 +1,396 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+/* app/globals.css */
+
+/* Global Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #0a0a0a; /* dark background */
+  color: #f1f1f1; /* light text */
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: rgba(10, 10, 10, 0.8);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  z-index: 100;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-links a {
+  color: #f1f1f1;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #493e6e; /* slight neon hover */
+}
+
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-toggle {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* already existing */
+.navbar-toggle {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 2rem;
+    background: #1f2937;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  .navbar-links.open {
+    display: flex;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 2rem;
+    background: #1f2937;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  .navbar-links.open {
+    display: flex;
+  }
+}
+
+
+/* Sections */
+.section {
+  padding: 5rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-banner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 4rem;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain; /* make sure full image is shown without cropping */
+  max-height: 600px; /* or remove this if you want it full */
+}
+
+.section-storyline {
+  padding: 8rem 2rem; /* More vertical padding */
+  background-color: #0a0a0a; /* Match background if needed */
+  display: flex;
+  justify-content: center;
+}
+
+.section-storyline > div {
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+.section-storyline h2 {
+  font-size: 3rem;
+  margin-bottom: 2.5rem;
+  color: #390b5a;
+}
+
+.section-storyline p {
+  font-size: 1.25rem;
+  line-height: 2;
+  color: #d0d0d0;
+  margin-bottom: 2rem;
+}
+
+.section-storyline {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.section-storyline.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+/* components/section3.css */
+
+.section-characters {
+  background-color: #111;
+  padding: 4rem 1.5rem;
+  transition: opacity 1s ease-out, transform 1s ease-out;
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.section-characters.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section-characters h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.character-grid {
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.character-card {
+  border-radius: 1.5rem;
+  padding: 2rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.character-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+}
+
+.character-image {
+  width: 9rem;
+  height: 9rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 9999px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.character-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.character-verse {
+  font-size: 1rem;
+  padding: 0 1rem;
+  line-height: 1.6;
+}
+
+
+
+/* Glow effect for special text */
+.glow-text {
+  text-shadow: 0 0 5px #594299, 0 0 10px #594299, 0 0 20px #594299;
+}
+
+/* globals.css */
+
+/* Pattern background for banners */
+.bg-pattern {
+  background-image: url('/pattern.png'); /* make sure you have a pattern.png! */
+  background-size: cover;
+  background-repeat: repeat;
+  opacity: 0.1;
+}
+
+/* Fancy shadow for boxes */
+.shadow-inner {
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+
+/* Smooth transition for hover effects */
+.group-hover\\:scale-105:hover {
+  transform: scale(1.05);
+}
+
+/* Optional: smooth transitions everywhere */
+* {
+  transition: all 0.3s ease;
+}
+
+.donation-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #ef4444; /* background (red) */
+  color: white;              /* <<< this is the text color */
+  border-radius: 9999px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.donation-button:hover {
+  background-color: #dc2626; /* darker red on hover */
+}
+
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./components/footer/Footer.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************/
+.footer {
+  padding: 2rem;
+  background: #111;
+  text-align: center;
+}
+  
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .footer-logo img {
+    border-radius: 50%;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .footer-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #d1d5db;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #594299; /* Indigo hover */
+  }
+  
+  .footer-bottom {
+    margin-top: 2rem;
+    font-size: 0.875rem;
+    color: #9ca3af;
+  }
+  
+  .footer-content a {
+    margin: 0 1rem;
+    color: white;
+    transition: color 0.3s;
+  }
+
+
+.footer-content a:hover {
+  color: #999;
+}
+  
