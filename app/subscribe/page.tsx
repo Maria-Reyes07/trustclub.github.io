@@ -9,11 +9,35 @@ export default function SubscribePage() {
   const [subscribed, setSubscribed] = useState(false);
   const [email, setEmail] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // You could send `email` to your real backend/mailing list provider here
-    setSubscribed(true);
+  
+    try {
+      const response = await fetch('https://api.brevo.com/v3/contacts', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'api-key': 'THE_TRUST_CLUB_KEY', // ⬅️ Replace with your Brevo API key
+        },
+        body: JSON.stringify({
+          email: email,
+          listIds: [2], // ⬅️ Replace with your Brevo List ID
+        }),
+      });
+  
+      if (response.ok) {
+        setSubscribed(true);
+      } else {
+        const errorData = await response.json();
+        console.error('Brevo API error:', errorData);
+        alert('Failed to subscribe. Please try again.');
+      }
+    } catch (error) {
+      console.error('Request error:', error);
+      alert('Something went wrong. Please try again.');
+    }
   };
+  
 
   return (
     <div className="subscribe-page">
