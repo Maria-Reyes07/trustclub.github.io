@@ -273,7 +273,7 @@ export const characters: Character[] = [
       '/characters/robin-placeholder.png',
       '/characters/robin-placeholder.png',
     ],
-    confessional: `walks in a little awkwardly
+    confessional: `\*walks in a little awkwardly\*
     Oh... am I supposed to sit right here? And that’s the camera I’m supposed to look at, right? Okay. 
     Cool.
     So... hi. This is kinda awkward, but my name is Robin Baker.
