@@ -57,17 +57,29 @@ export const characters: Character[] = [
       '/characters/el-placeholder.png',
       '/characters/el-placeholder.png',
     ],
-    confessional: `Hello, my name is Ella-Leonza or El. At seven years old, my family moved to the country because my father got a job offer for 
-    a construction company. I am the oldest of three. I knew the Lord most of my life. I was already baptized at the age of nine. Even though I 
-    was already baptized, some things happened to me that made me drift away from the LORD; so I became lukewarm. I made a friend my first year 
-    in high school, Jeremiah Tech. We were inseparable until we went our separate ways after high school because of college. I kind of had a 
-    crush on him but we are not going to talk more on that. Anyways at 20, the LORD called my name, and I answered. I decided to turn from my 
-    old ways and become new, but it wasn’t easy. ummm I was bitter, angry, and suicidal, and I was always rejected. I felt like I wasn’t capable 
-    of doing anything. At 22, I started to go to church to get my teachings in and grow closer to the LORD. At 25, my pastor decided to do an 
-    unplanned baptism after the sermon, and I felt moved. On that day my pastor preached about the Holy Spirit and wanting all of Him. I stood 
-    up with the desire to receive the Holy Spirit, and people came up to me, and started praying for me, and delivered me from what I mentioned 
-    earlier. At that moment, I burst into tears. I hadn't cried in such a long time, and it was almost like my emotions were unlocked by the 
-    Holy Spirit. And it felt great! I felt like I was carrying so much and it was taken right off of me. I feel light!`,
+    confessional: `Hi, I’m El.
+    I was born in Tela, Honduras, and moved to Conroe, Texas, when I was seven. My dad got a job with a 
+    construction company, so we packed up and started a new life. I’m the oldest of three siblings — the 
+    one who always had to grow up a little faster.
+    I’ve known the Lord most of my life. I was baptized when I was nine years old. But even after that, 
+    life happened — some painful things — and slowly, I drifted. I became lukewarm. I still believed in God, 
+    but my heart wasn’t all the way in it.
+    In high school, I met someone who became a big part of my story — Jeremiah Tech. We became best friends 
+    almost instantly. We were inseparable. Turns out, he became my friend because he liked me. I didn’t 
+    start liking him until senior year, but we went our separate ways after graduation. Life moved on… or 
+    so I thought.
+    When I was 20, I heard the Lord call my name. And this time, I listened. I started turning from my old 
+    ways, but it wasn’t an overnight change. I was still bitter. Angry. Depressed. I had suicidal thoughts. 
+    I felt rejected — like I wasn’t good enough for anything or anyone. Like I wasn’t capable of doing anything right.
+    When I turned 22, I started going to church — really going — to learn, to be taught, and to get closer 
+    to the Lord.
+    Then at 25… everything changed.
+    My pastor gave a sermon on the Holy Spirit — about wanting all of Him. After the message, he felt led 
+    to hold an unplanned baptism. I felt something stir deep inside me. I stood up.
+    People came around me, prayed for me, and began to speak deliverance over me. And in that moment… I 
+    broke. I cried. I hadn’t cried in so long. It felt like the Holy Spirit unlocked emotions I didn’t even 
+    realize I’d buried.
+    That day, something in me truly came alive.`,
     confessionalImage: '/characters/el-placeholder.png', // 👈 Added image for confessional
   },
   // Jeremiah
@@ -99,17 +111,26 @@ export const characters: Character[] = [
       '/characters/jer-placeholder.png',
       '/characters/jer-placeholder.png',
     ],
-    confessional: `Well, hello, my name is Jeremiah Tech. I was a professional NBA player, but I had to quit because I had to start focusing on 
-    potentially running my family business, TechHorizon. So now I am a software engineer at my family company. My mother created the company for 
-    children children. She made this company for generational wealth. She worked hard to get it to where it is now. I am thankful to God for her 
-    because she is why I am where I am now. I love to cook! I am the chef of my household. I watch the Food Network and play video games in my 
-    free time. The types of games I play are sports games, war games, and games where you can steal cars. When I was in high school, I had a 
-    good friend, one of my best friends, her name was El. Uhhh, she used to bother me a lot; honestly, she bullied me. (cue the sad music) 
-    Every time I turned around, she was there harassing me. Nah, I'm just kidding, but we were good friends. After high school, I would think of 
-    her now and then. Uhh, I was struggling with the spirit of Jezabel, rejection, and gluttony. I was also insecure about how my body looked. 
-    I thought I wouldn’t get married and was okay with that. My mindset was only on fulfilling my dream, which was to become a professional NBA 
-    player, and that's a check off my list, and seeking God. Then Barnabus, the host of this game, said what he said. I became pleased that my 
-    good thing is El.`,
+    confessional: `Well, hello — I’m Jeremiah Tech.
+    I used to be a professional NBA player. Crazy, right? But I stepped away from the league to start 
+    focusing on something even bigger — my family’s legacy. My mom built a tech company called TechHorizon, 
+    and now I work there as a software engineer.
+    She started it for the next generation — for kids, for the future. She poured everything into it so we 
+    could build generational wealth, and I’m grateful to God for her. She’s the reason I’m standing where I 
+    am today.
+    Outside of work? I love to cook. I’m the chef of the house — no one touches the stove when I’m around. 
+    I’m also a big Food Network guy, and in my chill time, I play video games. Sports games, war games, and 
+    yeah… games where you steal cars. Don’t judge me.
+    Back in high school, I had this really good friend — her name was El. Honestly… she used to bully me. 
+    (Cue the sad violin music.) Every time I turned around, she was there bothering me. I’m just messing — 
+    we were tight. Real close. After high school, I’d think about her sometimes. Wonder how she was doing.
+    Spiritually though… I had some heavy stuff going on. I struggled with the spirit of Jezebel, rejection, 
+    and gluttony. I was also really insecure about my body — I didn’t think I’d ever get married, and for a 
+    while, I was okay with that. My whole mindset was locked in on two things: making it to the NBA — which, 
+    check — and chasing after God.
+    Then Barnabus — the host of this whole game — said what he said, and suddenly it hit me.
+    My “good thing”... was El.
+    And honestly? I couldn’t be happier.`,
     confessionalImage: '/characters/jer-placeholder.png', // 👈 Added image for confessional
   },
 
@@ -144,18 +165,29 @@ export const characters: Character[] = [
       '/characters/rreei-placeholder.png',
       '/characters/rreei-placeholder.png',
     ],
-    confessional: `Heyyy!! I’m R’Reei, or y’all can call me Reei. I love to go knife-throwing with my family. I am the best in my family, and 
-    they love to hate on me. I also love to play tennis with my friends! Mainly with Tanner because I always win and play against him. I don’t 
-    like throwing knives with him. He is okay with that. I never admit that he is good, but I told him that. As you can see, I am very competitive 
-    and don’t like losing. I did gymnastics until I was 12 years old; there wasn’t a particular reason why I quit. I love the art of film and 
-    aspire to make films for Abba. What draws me to cinema is the storyline and the creativity of how the film is directed. When I watch movies, 
-    I pay attention to the colors, the positioning of the cameras, and how they are edited. As you can tell, my favorite color is pink. Well, I 
-    know that pink looks good on me. A strange fun fact about me, even though I don’t think it's odd, I like fire. I like how the fire looks, 
-    but I am not an arsonist. I just think that fire looks beautiful. It is astonishing how it can change to different colors based on how hot 
-    the flames are. But I would never set anything on fire just to see the flames, maybe. What I struggled with before I met Abba and had to get 
-    delivered from. That was me always doubting myself. Abba had to correct me with that. I struggled with lust and sexual immorality. I thought 
-    that was okay because it was normalized to me at a young age. I was also very insecure and didn’t like how I looked for a long time. But 
-    NOW Abba says otherwise! He said that I am fearfully and wonderfully made. And I receive that! I love Abba so much! It helped me a lot!`,
+    confessional: `Heyyy! I’m R’Reei — but y’all can call me Reei.
+    I love knife-throwing with my family… and not to brag, but I am the best. They love to hate on me for it, 
+    but it’s all love! I also play tennis with my friends — mostly with Tanner, my fiancé. I always win, 
+    obviously. We don’t throw knives together though… he’s okay, but I don’t want to admit he’s actually 
+    kind of good. Oops — guess I just did. As you can probably tell, I’m very competitive. Losing? Couldn’t 
+    be me.
+    I did gymnastics until I was about 12. Nothing dramatic happened — I just moved on. These days, I’m 
+    passionate about the art of film. I want to create movies that honor Abba. What draws me in is the story 
+    — how it’s told, how it’s shot, the color choices, the editing, the camera angles. I don’t just watch 
+    movies; I study them.
+    Also… yes, pink is my favorite color. Not just because it’s pretty, but because it looks good on me. 
+    Period.
+    Oh, and fun fact: I like fire. Not in a weird way! I just think it’s beautiful — the way it moves, how it 
+    changes color depending on the heat. It fascinates me. But no, I’m not an arsonist. Would I ever set 
+    something on fire just to see the flames? Maybe. (Just kidding… kind of.)
+    Now for the real stuff.
+    Before I gave my life to Abba, I struggled a lot with doubting myself. I was insecure. I didn’t like how 
+    I looked. I compared myself constantly. I also struggled with lust and sexual immorality — it was 
+    normalized around me from a young age, and I thought it was okay. But Abba showed me it wasn’t okay — 
+    and more than that, He showed me who I really am.
+    Now I know: I am fearfully and wonderfully made. That’s what He says. And I receive that.
+    I love Abba with all my heart. He delivered me from everything I thought defined me — and now I walk in 
+    truth, in confidence, and in purpose.`,
     confessionalImage: '/characters/rreei-placeholder.png', // 👈 Added image for confessional
   },
 
@@ -189,7 +221,26 @@ export const characters: Character[] = [
       '/characters/tanner-placeholder.png',
       '/characters/tanner-placeholder.png',
     ],
-    confessional: `Hello, my name is Ella-Leonza or El... (your full confessional text)`,
+    confessional: `G’day, I’m Tanner. I’m from Exmouth — small coastal town up in Western Australia. Not 
+    much happens out there, but it’s home.
+    Soon as I finished high school, I joined the ADF — the Australian Defence Force. Thought I had life 
+    figured out, y’know? I liked control. Needed it, really. Even though I believed in God, I didn’t trust 
+    Him. Not properly. I was still tryna run the show myself, make my own calls — as if I could be my own 
+    god while still saying I followed Him. That mindset kept me stuck for years.
+    I was married once before. My first real relationship. Deep down, I knew it wasn’t right. The Lord 
+    showed me signs — plenty of them — but I ignored them. Thought I could fix it. Thought I should. But it 
+    fell apart, and after the divorce, I was wrecked.
+    Took a lot of time, prayer, and surrender to heal from that. To actually give control over to God. And 
+    once I did… that’s when I met R’Reei Stream.
+    Mate, it was different from day one. Peaceful. Clear. Like Abba was saying, "Go on, son." Nothing but 
+    green lights. The day before we got baptized — together — I proposed. She said yes. We’ve got the video 
+    if you want proof — best day of my life.
+    But I haven’t always been this put-together.
+    There was a time I was deep in depression. Real dark. I didn’t see a way out. I planned to end my life. 
+    Had it all worked out. But God — in His mercy — stopped me. That moment changed everything. I surrendered. 
+    Gave my life to Jesus. Became born again.
+    Now I live with purpose. Not because I earned it, but because He gave it.
+    So yeah, I still struggle sometimes. But I’m not running the show anymore. He is.`,
     confessionalImage: '/characters/tanner-placeholder.png', // 👈 Added image for confessional
   },
 
@@ -222,23 +273,42 @@ export const characters: Character[] = [
       '/characters/robin-placeholder.png',
       '/characters/robin-placeholder.png',
     ],
-    confessional: `*walks in awkwardly* Oh.. am I supposed to sit right here? And that's the camera I'm supposed to look at, right? Okay. So...hi. 
-    This is awkward, but my name is Robin Baker. Um, before I met the Lord, I was. Ya know.. wronged by many people. Especially men. I had the 
-    mindset of "I don't need no man." You see, most of the men I was with weren't even that good in bed, so it was like, what's the whole point? 
-    After that, I got my own “things” to replace those men.... let's just say, “things” to satisfy me in ways they couldn't. So I was okay with 
-    that. I made up my mind that I don't need or want a man and never will. Until one day, the Lord called me by my name three times, and I 
-    answered and said, "Yes, Lord." He then told me what I needed to do. and I did it. I destroyed everything of my past to follow Him, especially 
-    my “things”. I became a new woman that day. I got my room in order, my mindset was forever made new. The next day, I was at work and met a 
-    new guy named Kai. When I first met him, I thought he was kinda annoying..actually, a lot of annoying. But I felt bad for him. You know he 
-    was scrawny, and many people didn't like him, so out of pity. I became his friend 'cause I felt bad for him, and I know if it were me, I 
-    wouldn't wanna be done like that, right?! So that's our story. Eventually, the annoying, scrawny man became my less annoying, slightly less 
-    scrawny husband. He wouldn't stop bothering me, and I went along with cause, why not? Over time, he grew on me. We became friends, and he 
-    eventually asked me on a date. I said, "Sure, why not." who's gonna pass up free food, ya know? He treated me very well on that date, and he 
-    was like no one I had ever met. On that date, I began to see his love for the Lord. That's all we talked about that day. We started doing 
-    bible studies and going out more. He asked me to marry him shortly after that, and I was like, "Sure, I'll marry you!" since then, we have 
-    been learning to love each other and keep the Lord in our marriage. Despite my past, the Lord has truly healed me; in my marriage, we 
-    communicate and are open and honest with each other. Before I go, just be prepared for him to tell you that I loved him first and was head 
-    over heels for him....I was not...he says that as a joke, but hopefully, the Holy Spirit convicts him when he tells the story.`,
+    confessional: `walks in a little awkwardly
+    Oh... am I supposed to sit right here? And that’s the camera I’m supposed to look at, right? Okay. 
+    Cool.
+    So... hi. This is kinda awkward, but my name is Robin Baker.
+    Before I met the Lord, I was... let’s just say, hurt — a lot — especially by men. I had this mindset 
+    like, “I don’t need no man.” And honestly, the ones I was with before? Not even that great in bed, so 
+    I was like, “What’s the point?”
+    Eventually, I got my own... “things” — you know, things that replaced the men. Things that satisfied me 
+    in ways they never could. So I was good. I made up my mind: I don’t need a man, and I definitely don’t 
+    want one.
+    Then one day, everything changed.
+    I heard the Lord call my name — not once, not twice — three times.
+    And I answered: “Yes, Lord.”
+    He told me exactly what I needed to do. So I did it. I destroyed everything from my past — especially 
+    the “things.” I cleaned out my room, and more importantly, I let Him clean out my heart. That day, I 
+    became a new woman. My mindset? Forever changed.
+    And then...
+    The next day at work, I met this guy. His name was Kai.
+    At first? He was so annoying. Like... painfully annoying.
+    But something about him — he was scrawny, kind of an oddball, and not many people liked him. I felt bad 
+    for him. Like, genuinely. So I became his friend out of pity. I thought, “If that were me, I’d want 
+    someone to treat me with kindness too.”
+    That’s how it started. And somehow... the annoying, scrawny man became my less annoying, slightly less 
+    scrawny husband.
+    He kept bothering me, and I just kinda went along with it like, “Why not?”
+    We became friends, and one day he asked me out. I was like, “Sure, free food? Bet.”
+    But that date? It surprised me. He was different. We talked about God the entire time. I saw his love 
+    for the Lord — and it wasn’t just talk, it was real. After that, we started doing Bible studies together, 
+    spending more time with each other, and eventually... he asked me to marry him.
+    And I said, “Sure, I’ll marry you!”
+    Since then, we’ve been learning to love each other — truly love each other — with Christ at the center of 
+    our marriage. The Lord has healed so much in me. Now, in this marriage, we communicate. We’re honest. 
+    We keep it real. And we keep Him first.
+    Oh — and before I go — just be ready for Kai to tell you his version of the story.
+    He’ll say I was “head over heels” for him first. I was not. He says that every time, thinking it’s funny. 
+    Hopefully, the Holy Spirit convicts him the next time he tells that lie.`,
     confessionalImage: '/characters/robin-placeholder.png', // 👈 Added image for confessional
   },
 
@@ -272,7 +342,29 @@ export const characters: Character[] = [
       '/characters/kai-placeholder.png',
       '/characters/kai-placeholder.png',
     ],
-    confessional: `Hello, my name is Ella-Leonza or El... (your full confessional text)`,
+    confessional: `Is this camera on me? Nah, I’m just messing — clearly it is.
+    Alright, let’s get into it.
+    I’m Kai. Born and raised in Brazil. And I’m married to the baddest chick, I mean woman in Eden — Robin. 
+    She’s got me working on calling her a woman, not a chick. Progress, people.
+    We actually met at this coffee shop we both worked at. Now, if you ask me how we really met… I’d love to 
+    say she was head over heels, couldn’t keep her eyes off me, always finding excuses to talk. But let’s be 
+    honest… it was me. I was gone from day one. Still am. But I know she loves me — deep, deep, deeeeeep 
+    down.
+    Wait, she said that? The Holy Spirit out here snitching again! But I love Him. I’d be nowhere without 
+    Him — and definitely not married to Robin, meu amor.
+    Now let me be real with you.
+    Before Jesus got a hold of me, I was out here wildin’. Struggling with pornography. Sleeping around. I 
+    grew up being the class clown — always laughed at, but never seen. Then came high school… the glow-up 
+    was real. Suddenly, girls noticed me. And I liked it. Not just the attention — the power. They gave 
+    themselves to me, and I took it. I had no idea what love actually was.
+    I wasn’t a good person. But I’ve been made new.
+    Jesus Christ, my Lord and Savior, changed everything. He saw me when no one else did. He loved me when I 
+    didn’t know how to love myself. And because of Him, I’ve apologized to those I hurt. I’ve forgiven those 
+    who hurt me.
+    Like Jesus said — Matthew 6:14 — “If you forgive others their trespasses, your heavenly Father will also 
+    forgive you.” But if you hold onto bitterness… how can you expect to be free?
+    So yeah. That’s me. Not perfect. But redeemed. And still madly in love with the woman who made me better.
+`,
     confessionalImage: '/characters/kai-placeholder.png', // 👈 Added image for confessional
   },
 
