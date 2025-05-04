@@ -6,7 +6,7 @@ import "./AboutPage.css";
 
 const teamMembers = [
   {
-    name: "Maria Reyes",
+    name: "Emme",
     role: "Creative Director",
     image: "/team/maria.jpg",
     bio: "Leading the vision, storytelling, and art direction of T.R.U.S.T.",
@@ -23,6 +23,13 @@ const teamMembers = [
     image: "/team/Huncho.jpg",
     bio: "Huncho brings the world of T.R.U.S.T. to life with bold visuals and unique character designs. From concept art to in-game assets, his creative touch gives the game its vibrant, adventurous style.",
   },
+  {
+    name: "Von",
+    role: "Game Artist",
+    image: "/team/von.jpg",
+    bio: "As the game artist for T.R.U.S.T, Von brings the world and its characters to life through his creative vision and artistic talent. He is responsible for designing and illustrating the six main characters, crafting distinct visual identities that reflect their personalities, backstories, and spiritual journeys. Working closely with the programming and design teams, Von ensures that every visual element enhances the storytelling and deepens the player’s connection to the message behind T.R.U.S.T.",
+  },
+
   // Add more members if you have!
 ];
 

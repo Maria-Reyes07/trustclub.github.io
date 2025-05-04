@@ -57,9 +57,8 @@ export const characters: Character[] = [
       '/characters/el-placeholder.png',
       '/characters/el-placeholder.png',
     ],
-    confessional: `Hi, I’m El.
-    I was born in Tela, Honduras, and moved to Conroe, Texas, when I was seven. My dad got a job with a 
-    construction company, so we packed up and started a new life. I’m the oldest of three siblings — the 
+    confessional: `Hi, I’m Ella-leonza or El.
+    I’m the oldest of three siblings — the 
     one who always had to grow up a little faster.
     I’ve known the Lord most of my life. I was baptized when I was nine years old. But even after that, 
     life happened — some painful things — and slowly, I drifted. I became lukewarm. I still believed in God, 
@@ -141,7 +140,7 @@ export const characters: Character[] = [
     favoriteColor: 'pink',
     profilePic: '/characters/rreei-placeholder.png',
     verse: `“1 || The Lord is my shepherd; I shall not want. 2 || He makes me to lie down in green pastures; He leads me beside the still waters. 
-    3 || He restores my soul; He leads me in the paths of righteousness For His name’s sake.” - Psalms 23:01-03 (NKJV)`,
+    3 || He restores my soul; He leads me in the paths of righteousness For His name’s sake.” - Psalm 23:01-03 (NKJV)`,
     nickname: 'Reei',
     age: '26',
     gender: 'Female',

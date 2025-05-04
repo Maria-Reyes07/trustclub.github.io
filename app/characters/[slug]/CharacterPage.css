@@ -202,3 +202,14 @@
     align-items: center;
   }
 }
+
+.back-link {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.back-link a {
+  text-decoration: underline;
+  color: #7351a2;; /* Tailwind's blue-600 */
+  font-size: 1.125rem; /* text-lg */
+}

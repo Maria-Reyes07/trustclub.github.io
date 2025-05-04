@@ -1,3 +1,4 @@
+// components/section3.tsx
 "use client";
 
 import Link from "next/link";
@@ -63,6 +64,7 @@ export function Section3() {
               <img src={char.image} alt={char.name} className="character-image" />
               <h3 className="character-name">{char.name}</h3>
               <p className="character-verse">{char.verse}</p>
+              <p className="click-here-text">Click Here</p>
             </div>
           </Link>
         ))}
