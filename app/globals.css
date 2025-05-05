@@ -330,3 +330,18 @@ html, body {
   background-color: #dc2626; /* darker red on hover */
 }
 
+.hero-image {
+  width: 100%;
+  height: auto;
+  max-height: 80vh; /* Optional: don't make it taller than viewport */
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-image {
+    max-height: 50vh;
+    object-fit: contain;
+    padding: 0 1rem;
+  }
+}

@@ -336,6 +336,24 @@ html, body {
   background-color: #dc2626; /* darker red on hover */
 }
 
+.hero-image {
+  width: 100%;
+  height: auto;
+  max-height: 80vh; /* Optional: don't make it taller than viewport */
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-image {
+    max-height: 50vh;
+    -o-object-fit: contain;
+       object-fit: contain;
+    padding: 0 1rem;
+  }
+}
 
 /*!**************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./components/footer/Footer.css ***!

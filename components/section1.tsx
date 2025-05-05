@@ -12,7 +12,7 @@ export function Section1() {
   }, []);
 
   return (
-    <section className="section-banner relative w-full h-screen overflow-hidden">
+    <section className="hero-image">
       {/* Background Image */}
       <Image
         src="/images/trust-lion.png"
