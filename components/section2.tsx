@@ -63,7 +63,7 @@ export function Section2() {
           “Now the next contestant is more precious than rubies, Ms. Ella-Leonza Calma!! She also goes by El!!  
           Now, we saved the best for last. His family is known for almost every technology designed on Earth.  
           We have Jeremiah Tech!! And just to let y’all know this, his wife is Ella-Leonza. But they do not know that yet.  
-          Oops, now they know jaja,” said Barnabus.
+          Oops, now they know haha,” said Barnabus.
         </p>
         <p className="mb-6 text-lg">
           Barnabus continued, “Okay, so the objective of this game is for you all to go through the maze filled with demons,

@@ -120,12 +120,6 @@ export default async function CharacterPage({ params }: { params: Promise<{ slug
           </div>
         </section>
 
-        <div className="back-link mt-10 text-center">
-          <Link href="/#meet-the-characters" className="text-blue-600 underline text-lg">
-            ← Back to Meet the Characters
-          </Link>
-      </div>
-
 
       </main>
     </div>

@@ -7,9 +7,9 @@ import "./AboutPage.css";
 const teamMembers = [
   {
     name: "Emme",
-    role: "Creative Director",
+    role: "Creative Director & Technical Designer",
     image: "/team/maria.jpg",
-    bio: "Leading the vision, storytelling, and art direction of T.R.U.S.T.",
+    bio: "Maria is the Creative Director and Technical Designer of T.R.U.S.T., leading the team and shaping the game’s vision from concept to execution. She designs gameplay mechanics using Python, creates 3D art, and ensures every element aligns with the game’s spiritual and creative direction.",
   },
   {
     name: "DeeJay",
@@ -27,7 +27,13 @@ const teamMembers = [
     name: "Von",
     role: "Game Artist",
     image: "/team/von.jpg",
-    bio: "As the game artist for T.R.U.S.T, Von brings the world and its characters to life through his creative vision and artistic talent. He is responsible for designing and illustrating the six main characters, crafting distinct visual identities that reflect their personalities, backstories, and spiritual journeys. Working closely with the programming and design teams, Von ensures that every visual element enhances the storytelling and deepens the player’s connection to the message behind T.R.U.S.T.",
+    bio: "As the game artist for T.R.U.S.T., Von brings its world and characters to life through his creative vision. He designs the six main characters, capturing their personalities and spiritual journeys, and works closely with the team to ensure every visual element supports the story and message.",
+  },
+  {
+    name: "Matt",
+    role: "Programmer",
+    image: "/team/von.jpg",
+    bio: "Matt is the lead programmer for T.R.U.S.T., building the game in Unreal Engine with C++. He also creates 3D models and environments using Blender, combining technical skill and artistic vision to craft immersive gameplay experiences.",
   },
 
   // Add more members if you have!
